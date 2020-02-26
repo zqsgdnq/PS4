@@ -1,0 +1,20 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(231,5): warning MSB8017: A circular dependency has been detected while executing custom build commands for item "..\Assets\Textures\doge.png". This may cause incremental build to work incorrectly.
+  Performing Custom Build Tools
+  Automatically set output format using source file "C:\temp\PS4 Starter3\Assets\Textures\doge.png" to : "B8G8R8A8UNormSrgb"
+  Texture descriptors information (version 2):
+  
+  index) width, height, depth, format            , type        ,      size
+      0)   256,    256,     1, B8G8R8A8UNormSrgb , 2d(mips:1)  ,     262144 bytes
+  ComputeShader.pssl
+C:\temp\PS4 Starter3\Assets\Shaders\PS4\ComputeShader.pssl(15,18): warning D20087: unreferenced formal parameter 'offset'
+     void main( uint2 offset : S_GROUP_ID, uint2 thread_id : S_GROUP_THREAD_ID)
+                      ^~~~~~                                                    
+C:\temp\PS4 Starter3\Assets\Shaders\PS4\ComputeShader.pssl(15,45): warning D20087: unreferenced formal parameter 'thread_id'
+     void main( uint2 offset : S_GROUP_ID, uint2 thread_id : S_GROUP_THREAD_ID)
+                                                 ^~~~~~~~~                      
+  PixelShader.pssl
+  VertexShader.pssl
+  ExampleRenderer.cpp
+  main.cpp
+  RenderObject.cpp
+  PS4Starter.vcxproj -> C:\temp\PS4 Starter3\ORBIS_Debug\PS4Starter.elf

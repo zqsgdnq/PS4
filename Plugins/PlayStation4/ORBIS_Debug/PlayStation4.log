@@ -1,0 +1,33 @@
+﻿  InputBase.cpp
+  Ps4AudioEmitter.cpp
+  PS4AudioSource.cpp
+  PS4ComputeShader.cpp
+  PS4Frame.cpp
+  PS4Input.cpp
+  PS4MemoryAware.cpp
+  PS4Mesh.cpp
+  PS4RendererBase.cpp
+C:\temp\PS4 Starter3\Plugins\PlayStation4\PS4RendererBase.cpp(57,9): warning : unused variable 'a' [-Wunused-variable]
+                          bool a = true;
+                               ^
+C:\temp\PS4 Starter3\Plugins\PlayStation4\PS4RendererBase.cpp(86,9): warning : unused variable 'a' [-Wunused-variable]
+                          bool a = true;
+                               ^
+  2 warnings generated.
+  PS4Shader.cpp
+C:\temp\PS4 Starter3\Plugins\PlayStation4\PS4Shader.cpp(111,8): warning : unused variable 'a' [-Wunused-variable]
+                  bool a = true;
+                       ^
+  1 warning generated.
+  PS4Sound.cpp
+  Ps4AudioSystem.cpp
+  PS4Texture.cpp
+  PS4Window.cpp
+C:\temp\PS4 Starter3\Plugins\PlayStation4\PS4Window.cpp(97,9): warning : unused variable 'a' [-Wunused-variable]
+                          bool a = true;
+                               ^
+C:\temp\PS4 Starter3\Plugins\PlayStation4\PS4Window.cpp(126,9): warning : unused variable 'a' [-Wunused-variable]
+                          bool a = true;
+                               ^
+  2 warnings generated.
+  PlayStation4.vcxproj -> C:\temp\PS4 Starter3\ORBIS_Debug\PlayStation4.a
